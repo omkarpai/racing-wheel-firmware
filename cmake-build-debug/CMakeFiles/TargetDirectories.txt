@@ -1,3 +1,0 @@
-/home/omkar/personal/stm-32-blinker/cmake-build-debug/CMakeFiles/stm-32-blinker.elf.dir
-/home/omkar/personal/stm-32-blinker/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/omkar/personal/stm-32-blinker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
