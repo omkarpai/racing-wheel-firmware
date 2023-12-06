@@ -57,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CUSTOM_HID_EPIN_SIZE 0x40U
+#define CUSTOM_HID_EPOUT_SIZE 0x40U
 
 /* USER CODE BEGIN Private defines */
 
