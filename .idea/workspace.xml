@@ -21,11 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="[wip]add custom usb hid device">
+      <change afterPath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stm-32-blinker.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/racing-wheel-firmware.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +85,11 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm-32-blinker">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stm-32-blinker.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm-32-blinker" TARGET_NAME="stm-32-blinker.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm-32-blinker" RUN_TARGET_NAME="stm-32-blinker.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -118,6 +120,7 @@
       <workItem from="1701784400354" duration="3840000" />
       <workItem from="1701877563401" duration="2770000" />
       <workItem from="1701880375249" duration="4000" />
+      <workItem from="1702052963152" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
