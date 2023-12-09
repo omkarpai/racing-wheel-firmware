@@ -20,8 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="add racing wheel wara">
-      <change afterPath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.h" afterDir="false" />
+    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="add generated descriptor to project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/racing-wheel-firmware.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/racing-wheel-firmware.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +87,6 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm-32-blinker">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="stm-32-blinker.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm-32-blinker" TARGET_NAME="stm-32-blinker.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm-32-blinker" RUN_TARGET_NAME="stm-32-blinker.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -120,7 +118,8 @@
       <workItem from="1701877563401" duration="2770000" />
       <workItem from="1701880375249" duration="4000" />
       <workItem from="1702052963152" duration="2168000" />
-      <workItem from="1702099804955" duration="12105000" />
+      <workItem from="1702099804955" duration="12200000" />
+      <workItem from="1702120400612" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702118940051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add generated descriptor to project">
+      <option name="closed" value="true" />
+      <created>1702119240528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702119240528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +216,7 @@
     <MESSAGE value="[wip]add custom usb hid device" />
     <MESSAGE value="[wip]add racing wheel waratah file" />
     <MESSAGE value="add racing wheel wara" />
-    <option name="LAST_COMMIT_MESSAGE" value="add racing wheel wara" />
+    <MESSAGE value="add generated descriptor to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add generated descriptor to project" />
   </component>
 </project>

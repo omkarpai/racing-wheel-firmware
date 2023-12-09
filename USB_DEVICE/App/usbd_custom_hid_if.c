@@ -91,7 +91,27 @@
 __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DESC_SIZE] __ALIGN_END =
 {
   /* USER CODE BEGIN 0 */
-  0x00,
+        0x05, 0x02,          // UsagePage(Simulation Controls[0x0002])
+        0x09, 0x02,          // UsageId(Automobile Simulation Device[0x0002])
+        0xA1, 0x01,          // Collection(Application)
+        0x85, 0x01,          //     ReportId(1)
+        0x09, 0xC4,          //     UsageId(Accelerator[0x00C4])
+        0x09, 0xC5,          //     UsageId(Brake[0x00C5])
+        0x09, 0xC6,          //     UsageId(Clutch[0x00C6])
+        0x15, 0x00,          //     LogicalMinimum(0)
+        0x26, 0xFF, 0x00,    //     LogicalMaximum(255)
+        0x95, 0x03,          //     ReportCount(3)
+        0x75, 0x08,          //     ReportSize(8)
+        0x81, 0x02,          //     Input(Data, Variable, Absolute, NoWrap, Linear, PreferredState, NoNullPosition, BitField)
+        0x09, 0xC8,          //     UsageId(Steering[0x00C8])
+        0x65, 0x14,          //     Unit('degrees', EnglishRotation, Degrees:1)
+        0x16, 0x7C, 0xFC,    //     LogicalMinimum(-900)
+        0x26, 0x84, 0x03,    //     LogicalMaximum(900)
+        0x95, 0x01,          //     ReportCount(1)
+        0x75, 0x0B,          //     ReportSize(11)
+        0x81, 0x02,          //     Input(Data, Variable, Absolute, NoWrap, Linear, PreferredState, NoNullPosition, BitField)
+        0x75, 0x05,          //     ReportSize(5)
+        0x81, 0x03,          //     Input(Constant, Variable, Absolute, NoWrap, Linear, PreferredState, NoNullPosition, BitField)
   /* USER CODE END 0 */
   0xC0    /*     END_COLLECTION	             */
 };
