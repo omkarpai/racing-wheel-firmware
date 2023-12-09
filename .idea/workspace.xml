@@ -20,11 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="set HSE to 8 Mhz. Remove user constants. Enable VBUS sensing">
+    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="use external oscillators correctly.">
+      <change afterPath="$PROJECT_DIR$/Descriptors/interface/interface-desc.str" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/racing-wheel-firmware.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/racing-wheel-firmware.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Descriptors/report/racing-wheel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.wara" beforeDir="false" afterPath="$PROJECT_DIR$/Descriptors/report/racing-wheel.wara" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Descriptors/report" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm-32-blinker">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -126,7 +131,7 @@
       <workItem from="1702099804955" duration="12200000" />
       <workItem from="1702120400612" duration="476000" />
       <workItem from="1702121405922" duration="339000" />
-      <workItem from="1702125986527" duration="932000" />
+      <workItem from="1702125986527" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -208,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702121662768</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="use external oscillators correctly.">
+      <option name="closed" value="true" />
+      <created>1702127088228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702127088228</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +255,7 @@
     <MESSAGE value="add generated descriptor to project" />
     <MESSAGE value="add custom descriptor" />
     <MESSAGE value="set HSE to 8 Mhz. Remove user constants. Enable VBUS sensing" />
-    <option name="LAST_COMMIT_MESSAGE" value="set HSE to 8 Mhz. Remove user constants. Enable VBUS sensing" />
+    <MESSAGE value="use external oscillators correctly." />
+    <option name="LAST_COMMIT_MESSAGE" value="use external oscillators correctly." />
   </component>
 </project>
