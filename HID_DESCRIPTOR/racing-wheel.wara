@@ -1,0 +1,21 @@
+[[applicationCollection]]
+usage = ['Simulation Controls','Automobile Simulation Device']
+
+    [[applicationCollection.inputReport]]
+
+        [[applicationCollection.inputReport.variableItem]]
+        usage = ['Simulation Controls', 'Accelerator']
+        logicalValueRange = [0, 255]
+
+        [[applicationCollection.inputReport.variableItem]]
+        usage = ['Simulation Controls', 'Brake']
+        logicalValueRange = [0, 255]
+
+        [[applicationCollection.inputReport.variableItem]]
+        usage = ['Simulation Controls', 'Clutch']
+        logicalValueRange = [0, 255]
+
+        [[applicationCollection.inputReport.variableItem]]
+        usage = ['Simulation Controls', 'Steering']
+        logicalValueRange = [-900, 900]
+        unit ='degrees'

@@ -20,9 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="[wip]add custom usb hid device">
-      <change afterPath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.toml" afterDir="false" />
+    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="[wip]add racing wheel waratah file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.toml" beforeDir="false" afterPath="$PROJECT_DIR$/HID_DESCRIPTOR/racing-wheel.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +85,9 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm-32-blinker">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="stm-32-blinker.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm-32-blinker" TARGET_NAME="stm-32-blinker.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm-32-blinker" RUN_TARGET_NAME="stm-32-blinker.elf">
@@ -120,7 +120,8 @@
       <workItem from="1701784400354" duration="3840000" />
       <workItem from="1701877563401" duration="2770000" />
       <workItem from="1701880375249" duration="4000" />
-      <workItem from="1702052963152" duration="1840000" />
+      <workItem from="1702052963152" duration="2168000" />
+      <workItem from="1702099804955" duration="11789000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -162,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701792505560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[wip]add racing wheel waratah file">
+      <option name="closed" value="true" />
+      <created>1702056641185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702056641185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +200,7 @@
     <MESSAGE value="add basic gpio example" />
     <MESSAGE value="add .idea to gitignore" />
     <MESSAGE value="[wip]add custom usb hid device" />
-    <option name="LAST_COMMIT_MESSAGE" value="[wip]add custom usb hid device" />
+    <MESSAGE value="[wip]add racing wheel waratah file" />
+    <option name="LAST_COMMIT_MESSAGE" value="[wip]add racing wheel waratah file" />
   </component>
 </project>
