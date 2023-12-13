@@ -61,6 +61,17 @@ static void MX_TIM2_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+// [DEBUG] printf
+// _write is internally used by printf
+// We point it to now use the Instrumentation Trace Macrocell (ITM)
+// Which is wired to SWO
+int _write(int file,char* data,int len){
+    for(int i = 0;i<len;i++){
+        ITM_SendChar(*data++);
+    }
+    return len;
+}
+
 /* USER CODE END 0 */
 
 /**
