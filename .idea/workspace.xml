@@ -20,8 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="add input filter on both channels">
+    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="add 72 mhz hclk. remove input filters.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/racing-wheel-firmware.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/racing-wheel-firmware.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +91,9 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm-32-blinker">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="stm-32-blinker.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm-32-blinker" TARGET_NAME="stm-32-blinker.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm-32-blinker" RUN_TARGET_NAME="stm-32-blinker.elf">
@@ -130,7 +132,8 @@
       <workItem from="1702121405922" duration="339000" />
       <workItem from="1702125986527" duration="7745000" />
       <workItem from="1702312070681" duration="1573000" />
-      <workItem from="1702396986871" duration="4797000" />
+      <workItem from="1702396986871" duration="5323000" />
+      <workItem from="1702479063804" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -260,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702401449992</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add 72 mhz hclk. remove input filters.">
+      <option name="closed" value="true" />
+      <created>1702401815297</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702401815297</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,17 +310,7 @@
     <MESSAGE value="change device and manufacturer names" />
     <MESSAGE value="add adc and timer dependencies" />
     <MESSAGE value="add input filter on both channels" />
-    <option name="LAST_COMMIT_MESSAGE" value="add input filter on both channels" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>104</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add 72 mhz hclk. remove input filters." />
+    <option name="LAST_COMMIT_MESSAGE" value="add 72 mhz hclk. remove input filters." />
   </component>
 </project>
