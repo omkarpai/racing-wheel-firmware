@@ -97,7 +97,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  __HAL_RCC_TIM2_CLK_ENABLE();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -106,6 +106,7 @@ int main(void)
   MX_ADC2_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  HAL_TIM_Encoder_Start(&htim2,ALL_CHANNELS);
 
   /* USER CODE END 2 */
 
@@ -113,7 +114,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      uint32_t enc = (TIM2->CNT)>>2;
+//      HAL_Delay(1000);
+      uint32_t enc = __HAL_TIM_GET_COUNTER(&htim2);
       printf("Encoder Ticks = %lu\n\r", enc);
 
     /* USER CODE END WHILE */
@@ -320,6 +322,7 @@ void Error_Handler(void)
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
+  printf("SOME ERROR OCCURED IDK");
   while (1)
   {
   }
