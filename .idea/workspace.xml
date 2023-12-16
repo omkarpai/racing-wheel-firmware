@@ -20,12 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="use async trace sw for debug">
+    <list default="true" id="676cf116-9e5f-4845-9ad0-e0e57896a53c" name="Changes" comment="disable tim2 global interupt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/racing-wheel-firmware.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/racing-wheel-firmware.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +137,10 @@
       <workItem from="1702479063804" duration="4132000" />
       <workItem from="1702550687097" duration="83000" />
       <workItem from="1702553170196" duration="836000" />
-      <workItem from="1702554193821" duration="2468000" />
+      <workItem from="1702554193821" duration="3929000" />
+      <workItem from="1702660290762" duration="762000" />
+      <workItem from="1702742369503" duration="300000" />
+      <workItem from="1702744523471" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -293,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702481976430</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="disable tim2 global interupt">
+      <option name="closed" value="true" />
+      <created>1702569633331</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702569633331</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +344,7 @@
     <MESSAGE value="add 72 mhz hclk. remove input filters." />
     <MESSAGE value="add debug impl for printf" />
     <MESSAGE value="use async trace sw for debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="use async trace sw for debug" />
+    <MESSAGE value="disable tim2 global interupt" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable tim2 global interupt" />
   </component>
 </project>
