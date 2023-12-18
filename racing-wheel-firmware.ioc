@@ -1,6 +1,8 @@
 #MicroXplorer Configuration settings - do not modify
 ADC2.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_2
-ADC2.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,NbrOfConversionFlag,Resolution
+ADC2.ContinuousConvMode=ENABLE
+ADC2.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,NbrOfConversionFlag,Resolution,ContinuousConvMode,NbrOfConversion
+ADC2.NbrOfConversion=1
 ADC2.NbrOfConversionFlag=1
 ADC2.Rank-0\#ChannelRegularConversion=1
 ADC2.Resolution=ADC_RESOLUTION_8B
@@ -127,7 +129,7 @@ ProjectManager.ToolChainLocation=
 ProjectManager.UAScriptAfterPath=
 ProjectManager.UAScriptBeforePath=
 ProjectManager.UnderRoot=true
-ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,4-MX_ADC2_Init-ADC2-false-HAL-true,5-MX_TIM8_Init-TIM8-false-HAL-true
+ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false,4-MX_ADC2_Init-ADC2-false-HAL-true,5-MX_TIM2_Init-TIM2-false-HAL-true
 RCC.48MHZClocksFreq_Value=48000000
 RCC.AHBFreq_Value=72000000
 RCC.APB1CLKDivider=RCC_HCLK_DIV2

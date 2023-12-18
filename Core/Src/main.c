@@ -116,7 +116,10 @@ int main(void)
   while (1)
   {
       uint32_t enc = TIM2->CNT;
-      printf("Encoder Ticks = %lu\n\r", enc);
+//      printf("Encoder Ticks = %lu\n\r", enc);
+      HAL_ADC_PollForConversion(&hadc2,1000);
+      uint32_t accel = HAL_ADC_GetValue(&hadc2);
+      printf("Accelerator = %lu\n\r", accel);
 
     /* USER CODE END WHILE */
 
@@ -194,7 +197,7 @@ static void MX_ADC2_Init(void)
   hadc2.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
   hadc2.Init.Resolution = ADC_RESOLUTION_8B;
   hadc2.Init.ScanConvMode = DISABLE;
-  hadc2.Init.ContinuousConvMode = DISABLE;
+  hadc2.Init.ContinuousConvMode = ENABLE;
   hadc2.Init.DiscontinuousConvMode = DISABLE;
   hadc2.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc2.Init.ExternalTrigConv = ADC_SOFTWARE_START;
@@ -217,7 +220,7 @@ static void MX_ADC2_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN ADC2_Init 2 */
-
+    HAL_ADC_Start(&hadc2);
   /* USER CODE END ADC2_Init 2 */
 
 }
