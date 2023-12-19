@@ -117,9 +117,9 @@ int main(void)
   {
       uint32_t enc = TIM2->CNT;
 //      printf("Encoder Ticks = %lu\n\r", enc);
-      HAL_ADC_PollForConversion(&hadc2,1000);
+      HAL_ADC_PollForConversion(&hadc2, HAL_MAX_DELAY);
       uint32_t accel = HAL_ADC_GetValue(&hadc2);
-      printf("Accelerator = %lu\n\r", accel);
+//      printf("Accelerator = %lu\n\r", accel);
 
     /* USER CODE END WHILE */
 
@@ -204,7 +204,7 @@ static void MX_ADC2_Init(void)
   hadc2.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc2.Init.NbrOfConversion = 1;
   hadc2.Init.DMAContinuousRequests = DISABLE;
-  hadc2.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  hadc2.Init.EOCSelection = ADC_EOC_SEQ_CONV;
   if (HAL_ADC_Init(&hadc2) != HAL_OK)
   {
     Error_Handler();
@@ -214,7 +214,7 @@ static void MX_ADC2_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_2;
   sConfig.Rank = 1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  sConfig.SamplingTime = ADC_SAMPLETIME_480CYCLES;
   if (HAL_ADC_ConfigChannel(&hadc2, &sConfig) != HAL_OK)
   {
     Error_Handler();
